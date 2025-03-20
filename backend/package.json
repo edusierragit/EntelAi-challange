@@ -2,10 +2,10 @@
   "name": "imdb-movies-backend",
   "version": "1.0.0",
   "description": "Backend para visualizador de películas IMDB",
-  "main": "app.js",
+  "main": "app.py",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "python app.py",
+    "test": "pytest tests/"
   },
   "dependencies": {
     "cors": "^2.8.5",
